@@ -57,7 +57,7 @@ int main()
         std::exit(1);
     }
 
-    readWriteStudentDataFile(fin, cout);
+    readWriteStudentDataFile(fin, fout);
 
     fin.close();
     fout.close();
